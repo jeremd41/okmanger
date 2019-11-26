@@ -1,0 +1,38 @@
+.Register {
+  background-color: #03A9F4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0 auto;
+
+  padding: 0 10px 0 10px;
+
+  .login-form {
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 400px;
+    padding: 30px;
+
+    background-color: #FAFAFA;
+  }
+
+  .login-form h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .login-form button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    width: 100%;
+  }
+}
