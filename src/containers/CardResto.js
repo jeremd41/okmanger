@@ -28,7 +28,7 @@ class CardResto extends Component{
                 <div className="columns is-multiline">
                     <img className="column is-half image is-600x480" src={burger1} alt="burger regime"/>
                     <div className="column is-half">
-                        <div className="columns is-gapless is-multiline">
+                        <div className="columns is-gapless is-multiline is-mobile">
                             <figure className="column is-6 image is-120x120">
                                 <img  src={burger1} alt="burger regime" />
                             </figure>
