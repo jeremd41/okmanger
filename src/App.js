@@ -7,6 +7,7 @@ import Login from "./containers/Login";
 import Register from "./containers/Register";
 import Home from "./containers/Home";
 import NotFound from "./containers/NotFound";
+import CardResto from "./containers/CardResto"
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <MenuBar />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/cardrestau" component={CardResto} />
             <Route path="/connexion" component={Login} />
             <Route path="/inscription" component={Register} />
             <Route path="*" component={NotFound} />
