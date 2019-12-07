@@ -23,6 +23,7 @@ const Wrapper = styled.div`{
         border-radius: 8px;
 
         form{
+            margin: 25px 0;
             width: 100%;
 
             .field{
