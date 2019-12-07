@@ -51,12 +51,13 @@ const Wrapper = styled.div`{
         }
     }
 
-    @media screen and (max-width: 762px) {
-        padding: 0;
+    @media screen and (max-width: 977px) {
         
         .recherche{
             width: 100%;
-            height: auto; 
+            height: auto;
+        
+            p{display:none;}
         }
      }
 }`
