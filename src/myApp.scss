@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+/*--------------------------------------------------------------*/
+/* ------                  CONFIG BULMA                   ------*/
+/*--------------------------------------------------------------*/
+
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
@@ -27,3 +31,11 @@ $input-shadow: none;
 
 // Import only what you need from Bulma
 @import '../node_modules/bulma/css/bulma.min.css';
+
+/*--------------------------------------------------------------*/
+/* ------             REGLES DEFAULT CSS                  ------*/
+/*--------------------------------------------------------------*/
+
+a{
+    text-decoration: none;
+}

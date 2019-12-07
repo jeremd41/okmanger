@@ -7,6 +7,7 @@ class Home extends Component {
             <div>
                 <ul>
                     <li><Link to="/cardrestau">Preview fiche restaurant</Link></li>
+                    <li><Link to="/Admin">Preview panneaux administrateur </Link></li>
                 </ul>
                 <div className="Login">
                     <h1>Home Page</h1>

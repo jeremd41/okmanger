@@ -10,6 +10,8 @@ const Wrapper = styled.section`
 
   i{margin: 5px;}
 
+  .pointer{cursor: pointer;}
+
   li{margin: 5px;}
   
   h1{margin-top: 10px;}
@@ -51,13 +53,13 @@ class CardResto extends Component{
                     <div className="card column is-half">
                         <h4>Au menu:</h4>
                         <ul>
-                            <li className="card">Menu 1</li>
-                            <li className="card">Menu 2</li>
-                            <li className="card">Menu 3</li>
-                            <li className="card">Menu 4</li>
-                            <li className="card">Menu 5</li>
-                            <li className="card">Menu 6</li>
-                            <li className="card">Menu 7</li>
+                            <li className="pointer card">Menu 1</li>
+                            <li className="pointer card">Menu 2</li>
+                            <li className="pointer card">Menu 3</li>
+                            <li className="pointer card">Menu 4</li>
+                            <li className="pointer card">Menu 5</li>
+                            <li className="pointer card">Menu 6</li>
+                            <li className="pointer card">Menu 7</li>
                         </ul>
                     </div>
                 </div>
