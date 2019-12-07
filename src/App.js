@@ -12,6 +12,7 @@ import HomeAdmin from "./containers/HomeAdmin";
 import AjouterRestau from "./containers/AjouterRestau";
 import ModifierRestau from "./containers/ModifierRestau";
 import Stats from "./containers/Stats"
+import DevPreview from "./containers/DevPreview";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <Router forceRefresh={false}>
         <Layout>
           <Switch>
+            <Route exact path="/preview" component={DevPreview} />
             <Route exact path="/" component={Home} />
             <Route exact path="/cardrestau" component={CardResto} />
             <Route exact path="/Admin" component={HomeAdmin} />

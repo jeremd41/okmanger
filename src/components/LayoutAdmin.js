@@ -2,9 +2,19 @@ import React, {Component} from "react"
 import {Link} from "react-router-dom"
 import styled from "styled-components"
 
+const Flex = styled.div`{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}`
+
 const Child = styled.div`{
-    margin-left: 17%;
-    margin-top: 1%;
+    display: block;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    height: 80vh;
     width: 80%;
 }`
 
@@ -20,7 +30,6 @@ const Nav = styled.ul`
     width: 180px;
     flex-direction: column;
     border: 1px solid rgba(0,0,0,.125);
-    position: absolute;
     top: 10%;
 
     li:hover {
@@ -39,7 +48,7 @@ class LayoutAdmin extends Component{
     render(){
         const{children}= this.props
         return(
-            <div>
+            <Flex>
                 <Nav>
                     <li>
                         <Link to="/Admin/Ajouter">Ajouter Restaurant</Link>
@@ -52,7 +61,7 @@ class LayoutAdmin extends Component{
                     </li>
                 </Nav>
                 <Child>{children}</Child>
-            </div>
+            </Flex>
         )
     }
 }
