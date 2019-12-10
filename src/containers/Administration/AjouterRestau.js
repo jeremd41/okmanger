@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import LayoutAdmin from "../components/LayoutAdmin"
+import LayoutAdmin from "../../components/LayoutAdmin"
 
 class AjouterRestau extends Component{
     render(){

@@ -11,6 +11,7 @@ class DevPreview extends Component {
                 <ul>
                     <li><Link to="/cardrestau">Preview fiche restaurant</Link></li>
                     <li><Link to="/Admin">Preview panneaux administrateur </Link></li>
+                    <li><Link to="/Utilisateur">Preview panneaux utilisateur </Link></li>
                 </ul>
             </div>
         );
