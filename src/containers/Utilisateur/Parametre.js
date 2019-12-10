@@ -33,7 +33,7 @@ const Form = styled.form`{
 class Parametre extends Component{
     render(){
         return(
-            <LayoutUtilisateur title="Paramètre de compte">
+            <LayoutUtilisateur title="Paramètres de compte">
                 <Form>
                     <h5>Informations générales</h5>
                     <div className="columns formhaut">
@@ -43,7 +43,7 @@ class Parametre extends Component{
                         </div>
                         <div className="column">
                             <label>E-mail:<input className="input is-small" type="text" /></label>
-                            <label>Téléphone:<input className="input is-small" type="text" /></label>
+                            <label>Tél:<input className="input is-small" type="text" /></label>
                         </div>
                     </div>
                     <div className="formbas">

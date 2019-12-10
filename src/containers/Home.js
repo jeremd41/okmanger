@@ -68,7 +68,7 @@ class Home extends Component {
                 <div className="recherche">
                     <form>
                         <h2 className="title is-3">On fait un break ensemble ?</h2>
-                        <p className="subtitle is-5">Saisie l'adresse de ton école ou ta boîte et c'est parti !</p>
+                        <p className="subtitle is-5">Saisie l'adresse de ton école ou de ta boîte et c'est parti !</p>
                         <div class="field">
                             <div class="control">
                                 <input class="input is-info" type="text" placeholder="🔎 Entrez l'adresse ici"/>

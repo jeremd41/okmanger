@@ -8,7 +8,7 @@ import LayoutUtilisateur from "../../components/LayoutUtilisateur"
 class AdresseLiv extends Component{
     render(){
         return(
-            <LayoutUtilisateur title= "Gérer mes lieu de livraison">
+            <LayoutUtilisateur title= "Mes lieux de livraison">
                 <div>
                     <button className="button is-info">+ Ajouter lieu</button>
                 </div>

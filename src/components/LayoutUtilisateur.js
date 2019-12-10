@@ -17,12 +17,20 @@ const Flex = styled.div`{
      }
 }`
 
+const Drop = styled.div`{
+    display: none;
+    
+    @media screen and (max-width: 977px) {
+        display: block;
+     }
+}`
+
 const Child = styled.div`{
     display: block;
     margin: 15px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 8px;
-    height: 70vh;
+    height: auto;
     width: 80%;
 
     h4{
@@ -35,8 +43,9 @@ const Child = styled.div`{
     }
 
     @media screen and (max-width: 977px) {
-        width:95%
+        width:95%;
         margin: 0 auto;
+        margin-bottom: 15px;
      }
 }`
 
@@ -71,7 +80,7 @@ const Nav = styled.ul`{
 
     @media screen and (max-width: 977px) {
         width:95%;
-        margin: 0 auto;
+        margin: 15px auto;
      }
   }
 `;
@@ -83,6 +92,34 @@ class LayoutUtilisateur extends Component{
         const{children, title}= this.props
         return(
                 <Flex>
+                    <Drop>
+                        <div class="dropdown is-active">
+                            <div class="dropdown-trigger">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                                <span>Dropdown button</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                <div class="dropdown-content">
+                                <Link to="#" class="dropdown-item">
+                                    Dropdown item
+                                </Link>
+                                <Link to="*" class="dropdown-item">
+                                    Other dropdown item
+                                </Link>
+                                <Link to="#" class="dropdown-item">
+                                    Other dropdown item
+                                </Link>
+                                <Link to="#" class="dropdown-item">
+                                    Other dropdown item
+                                </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Drop>
                     <Nav>
                         <h4 className="title is-4">Espace client</h4>
                         <li>
