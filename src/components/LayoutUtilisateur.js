@@ -21,7 +21,7 @@ const Drop = styled.div`{
     display: none;
     
     @media screen and (max-width: 977px) {
-        display: block;
+        display: none;
      }
 }`
 
@@ -52,7 +52,7 @@ const Child = styled.div`{
 
 const Nav = styled.ul`{
     margin: 15px;
-    height: 50vh;
+    height: auto;
     list-style-type: none;
     padding: 0;
     margin-left: 5px;
